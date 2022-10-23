@@ -1,7 +1,10 @@
-import React, { Component, useState } from 'react'
+import React, { useEffect } from 'react'
+
 import '../styles/App.css';
+
 const App = () => {
-   const [date,setDate] = React.useState()
+
+ const [date,setDate] = React.useState()
 
  useEffect(()=>{
 
@@ -26,6 +29,11 @@ const App = () => {
    </div>
 
  )
+
 }
+
+ 
+
+ 
 
 export default App;
